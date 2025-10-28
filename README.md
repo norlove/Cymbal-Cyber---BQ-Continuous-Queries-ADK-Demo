@@ -30,7 +30,7 @@
    - Vertex AI User
 10. Create a BigQuery Colab notebook for the benign events generator. The code is [HERE](https://pantheon.corp.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1snickorlove-demos!2sus-central1!3s752401fa-926b-4dac-aa63-94d8b3b019c9!2e2)
       
-12. Create a BigQuery Colab notebook for the malicious events generator. The code is [HERE](https://github.com/norlove/BigQuery-Continuous-Queries-ADK-Network-Security-Demo/blob/main/Cymbal%20Cyber%20-%20Single%20Malicious%20Event%20Generator.py)
+12. Create a BigQuery Colab notebook for the malicious events generator. The code is [HERE](https://pantheon.corp.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1snickorlove-demos!2sus-central1!3s7a233361-91ea-4a41-8883-de3a81be1fab!2e2)
 13. Run both notebooks independently and ensure the cyber_events table in BQ is receiving the traffic 
 16. Create the Pub/Sub topic cymbal_cyber_dest_topic to receive the output from your BigQuery continuous query
 17. Create and save a BigQuery continuous query. Code is [HERE](https://github.com/norlove/BigQuery-Continuous-Queries-ADK-Network-Security-Demo/blob/main/Stateful%20Continuous%20Query.sql)
