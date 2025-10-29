@@ -7,7 +7,7 @@
 **Rough instructions:**
 1. Create a BigQuery dataset named Cymbal_Cyber
 2. Create a BigQuery table named `user_access_events` for where the raw network access logs will be streamed to. [DDL to create the table](https://paste.googleplex.com/5487041932558336)
-3. Create a BigQuery table named `firewall_events` for where the network connection and firewall access logs will be streamed to. [DDL to create the table](https://paste.googleplex.com/4669948563685376)
+3. Create a BigQuery table named `network_events` for where the network connection and firewall access logs will be streamed to. [DDL to create the table](https://paste.googleplex.com/4669948563685376)
 4. Create a BigQuery table named `false_positives` for the logged false positives from ADK. [DDL](https://paste.googleplex.com/4790561718140928)
 5. Create a BigQuery table named `escalations` for the logged escalations from ADK. [DDL](https://paste.googleplex.com/6624169516859392)
 6. Create a BigQuery remote connection for the object tables named continuous-query-vertex-ai-connection
