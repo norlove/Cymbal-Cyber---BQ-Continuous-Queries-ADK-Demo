@@ -32,7 +32,7 @@
 11. Create a BigQuery Colab notebook for the malicious events generator. The code is [HERE](https://paste.googleplex.com/5930999984816128)
 12. Run both notebooks independently and ensure both the user_access_events and firewall_events tables in BQ are receiving the traffic 
 13. Create the Pub/Sub topic cymbal_cyber_dest_topic to receive the output from your BigQuery continuous query
-14. Create and save a BigQuery continuous query. Code is [HERE](https://github.com/norlove/BigQuery-Continuous-Queries-ADK-Network-Security-Demo/blob/main/Stateful%20Continuous%20Query.sql)
+14. Create and save a BigQuery continuous query. Code is [HERE](https://paste.googleplex.com/6423058818662400)
     - Supply the service account you created earlier
     - Run the continuous query and ensure it works by manually pulling events from the Pub/Sub topic cymbal_cyber_dest_topic
 15. Create a few GCS buckets:
